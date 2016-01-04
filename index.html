@@ -15,19 +15,37 @@
         background-color: skyblue;
       }
 
+      #before-install {
+        display: block;
+      }
+
+      #after-install {
+        display: none;
+      }
+
       button {
         font-size: 5em;
       }
-      
+
       @media all and (display-mode: standalone) {
         body {
-          background-color: yellow;
+          background-color: limegreen;
         }
+
+        #before-install { display: none; }
+
+        #after-install { display: block; }
       }
     </style>
   </head>
   <body>
-    <h1>INSTALL ME</h1>
-    <button type="button" name="button" id="install-btn">BEGIN INSTALL</button>
+    <div id="before-install">
+      <h1>INSTALL ME</h1>
+      <button type="button" name="button" id="install-btn">BEGIN INSTALL</button>
+    </div>
+
+    <div id="after-install">
+      <h2>Thanks for installing!</h2>      
+    </div>
   </body>
 </html>
