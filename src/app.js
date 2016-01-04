@@ -1,0 +1,3 @@
+addToHomescreen({
+   startDelay: 5
+})
