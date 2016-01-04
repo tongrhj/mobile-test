@@ -2,17 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width">
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="http://www.androidpolice.com/wp-content/uploads/2015/09/nexus2cee_new_google_icon_thumb.png">
-    <title>Install Me</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style/addtohomescreen.css">
-    <script src="src/addtohomescreen.js"></script>
-    <script src="src/app.js" defer></script>
+    <link rel="manifest" href="manifest.json">
+
+    <title>Install Me</title>
+
+    <script src="js/addtohomescreen.js"></script>
+    <script src="js/app.js" defer></script>
     <style media="screen">
       body {
-        background-color: skyblue;
+        background-color: lightcoral;
       }
 
       #before-install {
@@ -45,7 +46,7 @@
     </div>
 
     <div id="after-install">
-      <h2>Thanks for installing!</h2>      
+      <h2>Thanks for installing!</h2>
     </div>
   </body>
 </html>

@@ -18,3 +18,7 @@ installBtn.addEventListener('click', (e) => {
   console.log('Install Button Clicked')
   addtohome.show(true)
 })
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('js/service-worker.js')
+}
