@@ -1,0 +1,7 @@
+{
+  "name":"jared-install-banner",
+  "description":"playground to test chrome's add to homescreen feature",
+  "scripts":{},
+  "env":{},
+  "addons":[]
+}
