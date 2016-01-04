@@ -1,3 +1,5 @@
+'use strict'
+
 const addtohome = addToHomescreen({
    skipFirstVisit: false,
    maxDisplayCount: 0,
