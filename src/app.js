@@ -1,3 +1,1 @@
-addToHomescreen({
-   startDelay: 5
-})
+addToHomescreen()
